@@ -2,18 +2,18 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'dpk990505.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: ''
 
 # Title of the Site
-title: What A Theme
+title: 노형래의 웹사이트
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: 게임개발 관련 사이트
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: 게임,game
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -22,26 +22,26 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+email: dpk990505@gmail.com
+facebook_username: /
+twitter_username: /
+instagram_username: /
+linkedin_username: /
+github_username:  /
+youtube_channel_id: / 
 reddit_username: /
 behance_username: /
 dribbble_username: /
 spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: /
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: 노형래
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: 노형래
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
