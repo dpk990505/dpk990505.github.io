@@ -1,53 +1,65 @@
-# WhatATheme
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
+# Jekyll Theme Serial Programmer
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+> A Jekyll theme for serial programmers (-.-)
 
-![WhatATheme](assets/images/meta.jpg)
+[Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
 
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
+## Features
 
-# Installation :books:
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
-### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
-* Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
+- Responsive
+- Dark mode/Light mode
+- Syntax highlighting
+- Feed
+- Sitemap
+- and more...
 
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
+## How to install
 
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
+1. Download or clone the repo
+   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
+2. Enter the folder
+   `cd jekyll-theme-serial-programmer`
+3. Run
+   `bundle install`
+4. Start Jekyll server
+   `bundle exec jekyll serve`
+5. Access via
+   - localhost or according to your pc configurations.
+6. Change the `_config.yml` & `_data/author.yml` files as you like.
+7. Upload the files on your repository and :sunglasses: enjoy.
 
----
+> NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
 
-### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
-* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
-* [Font Awesome](https://fontawesome.com/)
-* [Poppins Font](https://fonts.google.com/specimen/Poppins)
-* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
+## Alert!
 
----
+- Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
+- You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
+- Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
 
-### Credits :bulb:
-* [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)
+## Asking for support!
 
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
+
+You can use the sponsor button at the top or on the right.
+
+### [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
+
+# Screenshots
+
+## PC BLOG PAGE
+
+![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog_dm.png)
+
+![Blog page light mode](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog_lm.png)
+
+## PC POST EXAMPLE
+
+![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_post.png)
+
+## PHONE BLOG PAGE
+
+![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_blog.png)
+
+## PHONE POST EXAMPLE
+
+![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_post.png)
