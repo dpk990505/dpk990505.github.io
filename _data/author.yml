@@ -1,5 +1,5 @@
-name: 노형래
-dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
+name: "노형래"
+dp: "https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4"
 description: |
   <p>
     유니티 개발하면서 배운 내용정리 & 개발 산출물 정리
@@ -7,16 +7,14 @@ description: |
   <br/>
   <p>
     <b>Unity C++</b> 목원대 웹화면구현 수업 기말 프로젝트
-  </P>
+  </p>
   <p>
     연락이메일: ABCED@gmail.com
-    전화번호 : 010-1234-5678
+    전화번호: 010-1234-5678
   </p>
-
-
-email: ABCED@gmail.com
+email: "ABCED@gmail.com"
 contact:
-  - title: github
-    url: https://github.com/dpk990505
-  - title: email
-    url: mailto:dpk990505@gmail.com
+  - title: "github"
+    url: "https://github.com/dpk990505"
+  - title: "email"
+    url: "mailto:dpk990505@gmail.com"
