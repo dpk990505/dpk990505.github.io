@@ -54,8 +54,8 @@ header nav ul li button{
 main{
   width:100%;
   height:100vh;
-  color:white;
-  background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/me.jpg') center center;
+  color:rgb(115, 189, 30);
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)), url('images/me.jpg') center center;
   background-size:cover;
   display:flex;
   justify-content:center;
@@ -113,7 +113,7 @@ main h2 span::after{
   content:"";
   height:40px;
   width:3px;
-  background-color:#fff;
+  background-color:#ffffff;
   display:inline-block;
   animation: blink .7s ease-in-out infinite;
 }
@@ -132,14 +132,14 @@ section{
   padding:5rem 0;
 }
 section:nth-child(2n){
-  background-color:#f8f8f8;
+  background-color:#44c436;
 }
 section .title{
   margin-bottom:3rem;
 }
 section .title h4{
   font-size:1.35rem;
-  color:#ed4848;
+  color:#0e7117;
   position:relative;
 }
 section .title h2{
@@ -176,7 +176,7 @@ section .about-self .right h3{
 }
 /* 본문 오른쪽 h3 태그의 strong 태그 색상 강조 */
 section .about-self .right h3 strong{
-  color:#ed4848;
+  color:#078d2b;
 }
 /* 본문 오른쪽 p 태그의 크기와 여백 지정 */
 section .about-self .right p{
@@ -212,7 +212,7 @@ section .do-me .do-inner:last-child{
 /* 아이콘 폰트 크기와 색상 */
 section .do-me .do-inner .icon i{
   font-size:2.5rem;
-  color:#ff6a6a;
+  color:#0a7120;
 }
 /* HTML5, CSS3, BootStrap v5.0 텍스트 크기와 간격 */
 section .do-me .do-inner .content h3{
@@ -225,7 +225,7 @@ section .do-me .do-inner .content p{
 }
 /* do-inner 클래스에 마우스를 올리면 배경색과 텍스트 색상 변경 */
 section .do-me .do-inner:hover{
-  background-color:lightcoral;
+  background-color:rgb(38, 127, 39);
   color:white;
 }
 /* do-inner 클래스에 마우스를 올리면 아이콘 폰트 색상 변경 */
@@ -269,7 +269,7 @@ section.portfolio .portfolio-inner img{
 }
 /* strong 태그 색상과 간격 */
 section.portfolio .portfolio-inner strong{
-  color:#ff6a6a;
+  color:#07650b;
   margin:0.5rem 0;
   display:block;
 }
@@ -499,3 +499,20 @@ header.active{
     opacity:1;
   }
 }
+
+.fa-bounce {
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-10px);
+  }
+  60% {
+      transform: translateY(-5px);
+  }
+}
+

@@ -2,7 +2,7 @@
 // 텍스트 작성과 삭제 즉시 실행 함수
 (function(){
   const spanEl = document.querySelector("main h2 span");
-  const txtArr = ['개발자 지망생', '게임 디렉터 지망생', '게임 프로그래머 지망생'];
+  const txtArr = ['개발자', '게임 디렉터', '게임 프로그래머'];
   let index = 0;
   let currentTxt = txtArr[index].split("");
   function writeTxt(){
